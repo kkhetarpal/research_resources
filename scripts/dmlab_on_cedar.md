@@ -23,7 +23,7 @@ export PATH="$PATH:$HOME/bin"
 git clone https://github.com/deepmind/lab.git
 cd lab
 git clone https://github.com/kkhetarpal/unrealwithattention.git
-bazel --output_base=/home/kkheta2/project/kkheta2/bazelout1 run //unrealwithattention:train --define headless=glx
+bazel --output_base=/home/bazelout1 run //unrealwithattention:train --define headless=glx
 ```
 
 For unrealwithattention/train to be visible, you must change the bazel lab/BUILD file. The instructions in the unreal readme seem flawed (see [issue here](https://github.com/miyosuda/unreal/issues/21))
