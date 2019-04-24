@@ -1,6 +1,6 @@
 # Miniworld + Baselines
 
-Virtualenv+ miniworld+ gym + tensorflow: CC
+## Virtualenv+ miniworld+ gym + tensorflow: CC
 
 module load python/3.6 
 
