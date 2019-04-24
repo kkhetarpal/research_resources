@@ -2,7 +2,7 @@
 
 ## Virtualenv+ miniworld+ gym + tensorflow: CC
 
-module load python/3.6 
+`module load python/3.6 
 
 pip install virtualenv
 
@@ -13,6 +13,7 @@ source intf/bin/activate
 cd gym-miniworld/
 
 pip3 install -e .
+`
 
 Test this:
 
@@ -20,7 +21,7 @@ Test this:
      
      import gym_miniworld
 
-pip install tensorflow_gpu
+`pip install tensorflow_gpu
 
 pip install mpi4py
 
@@ -36,3 +37,4 @@ git checkout multioption
 cd baselines_intfc
 
 pip install -e .
+`
